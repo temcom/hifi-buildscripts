@@ -11,6 +11,8 @@
 # tags its release build points.
 #
 #!/bin/sh
+# You must set HFSRC to location of your High Fidelity source.
 export HFSRC=~/src.hifi
 cd $HFSRC
-/usr/bin/git describe --tags $(git rev-list --tags --max-count=1) | sed 's/RELEASE-//g'
+export RELEASE_NUMBER=$(/usr/bin/git describe --tags $(git rev-list --tags --max-count=1) | sed 's/RELEASE-//g')
+echo $RELEASE_NUMBER
