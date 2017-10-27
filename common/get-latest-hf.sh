@@ -12,7 +12,7 @@
 #
 #!/bin/sh
 # You must set HFSRC to location of your High Fidelity source.
-export HFSRC=~/src.hifi
+export HFSRC=~/src/hifi
 cd $HFSRC
 export RELEASE_NUMBER=$(/usr/bin/git describe --tags $(git rev-list --tags --max-count=1) | sed 's/RELEASE-//g')
 echo $RELEASE_NUMBER
