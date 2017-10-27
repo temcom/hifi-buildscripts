@@ -8,7 +8,7 @@ This will (possibly) work for **only** the following Linux based distribtutions;
 1) Ubuntu Xenial (16.04)
 2) Ubuntu Artful (17.10)
 3) Debian Buster (10.0 -- currently in Debian's "testing" phase)
-4) OpenSuSE Tumbleweed
+4) openSUSE Tumbleweed
 
 Each of above has a subdirectory with its specific build scripts and notes.
 
