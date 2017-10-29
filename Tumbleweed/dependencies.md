@@ -1,6 +1,7 @@
 **Required Packages for a machine you are building from**
 
 `sudo zypper install -t pattern devel_basis`
+
 `sudo zypper install git cmake libqt5-qtbase-devel libqt5-qtscript-devel libqt5-qtdeclarative-devel libqt5-qtwebsockets-devel libqt5-linguist-devel libqt5-qtmultimedia-devel libqt5-qtsvg-devel libqt5-qtwebengine-devel libqt5-qtwebchannel-devel libqt5-qtxmlpatterns-devel glu-devel libopenssl-1_0_0-devel libSDL2-devel tbb-devel`
 
 
