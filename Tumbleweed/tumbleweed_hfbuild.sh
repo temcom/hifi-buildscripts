@@ -115,8 +115,6 @@ mv libpcmCodec.so $HFBIN/plugins
 cd $HFSRC/build/interface
 cp -r $HFSRC/build/interface/resources/ $HFBIN
 cp -r $HFSRC/build/interface/scripts/ $HFBIN
-#mv resources $HFBIN
-#mv scripts $HFBIN
 cd $HFSRC/build/ext/makefiles/polyvox/project/lib/Release
 mv libPolyVoxCore.so $HFBIN
 mv libPolyVoxCore.so.0 $HFBIN
