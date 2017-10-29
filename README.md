@@ -12,4 +12,4 @@ This will (possibly) work for **only** the following Linux based distribtutions;
 
 Each of above has a subdirectory with its specific build scripts and notes.
 
-It will not work for anything else that's not at least an almost identical clone for packages to one of the above.  I.E. It *might* work for Linux Mint based on Ubuntu 17.10, but, is neither tested on or planned to be tested on any distributions not explicitly listed.
+It will not work for anything else that's not at least an almost identical clone for packages to one of the above.  I.E. It *might* work for Linux Mint based on Ubuntu 17.10 using Artful build scripts, but, is neither tested on or planned to be tested on any distributions not explicitly listed.
