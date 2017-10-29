@@ -25,13 +25,10 @@ if [ ! -e $HFSRC ]; then
 fi
 cd $HFSRC
 git checkout master
-git branch -D testbranch || true
 git pull
 export RELEASE_NUMBER=$(/usr/bin/git describe --tags $(git rev-list --tags --max-count=1) | sed 's/RELEASE-//g')
-
 # Set destination to install base + tag version
 export HFBIN=$HFBINBASE/$RELEASE_NUMBER
-
 # Check to see if it's already made...
 if [ -e $HFBIN ]; then
         read -p "Already built.  Press R or any other key to exit." -n 1 -r
@@ -40,18 +37,21 @@ if [ -e $HFBIN ]; then
                 exit 1
         fi
 fi
-
+# Away we go - enjoy all the warnings about -pedantic not being a thing - thanks ancient GLM we have to use.
 git checkout tags/RELEASE-$RELEASE_NUMBER
 export RELEASE_TYPE=PRODUCTION
 export BRANCH=stable
-
+# Never ever ever ever start with a build dir containing any remnants of previous builds - only sorrow results if you do.
 rm -rf $HFSRC/build
 mkdir -p $HFSRC/build
 cd $HFSRC/build
 cmake .. -DUSE_LOCAL_TBB=1 -DUSE_LOCAL_SDL2=1 -DCMAKE_BUILD_TYPE=Release
 make -j2 domain-server assignment-client pcmCodec hifiCodec interface
+# Insure nothing from a previous compile exists in destination dir
 rm -rf $HFBIN
+# Create destination dir and required plugins dir under destination
 mkdir -p $HFBIN/plugins
+# Now the chrpath and patchelf hackery begins to clean up lib references and "install" binaries/resources
 cd $HFSRC/build/assignment-client
 strip -s assignment-client
 chrpath -r $HFBIN assignment-client
