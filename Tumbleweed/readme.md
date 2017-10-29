@@ -12,16 +12,16 @@ Variables controlling where source and binaries go;
 
 *Defaults to user running script home directory with source in /home/your_user/src/hifi and binaries to /home/your_user/hifi/VERSION/*
 
-`HFSRC=$USER/src/hifi`
+`HFSRC=/home/$USER/src/hifi`
 
-`HFBINBASE=$USER/hifi`
+`HFBINBASE=/home/$USER/hifi`
 
 If you want to, for instance, create a tarball of your binaries to run on another machine it will need to meet the following requirements;
 
 1) Have the same distribution as the "build box" (i.e. openSUSE Tumbleweed build box -> openSUSE Tumbleweed run box).
 2) Binaries on "run box" must be in same location as "build box" due to hard coding various run paths for libs.
 
-For example;
+For example if your user name on compile box is "hfbuilder";
 
 On your build box you end up with binaries in...
 
