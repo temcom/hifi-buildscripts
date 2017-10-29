@@ -16,8 +16,8 @@
 # This looks for most recent tag and builds or warns and exits if already built.
 set -e
 export QT_CMAKE_PREFIX_PATH=/usr/lib64/cmake
-export HFSRC=$USER/src/hifi
-export HFBINBASE=$USER/hifi
+export HFSRC=/home/$USER/src/hifi
+export HFBINBASE=/home/$USER/hifi
 export CXX='g++ -std=c++11'
 if [ ! -e $HFSRC ]; then
         mkdir -p $HFSRC
