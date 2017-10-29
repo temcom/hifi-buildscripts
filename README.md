@@ -1,6 +1,8 @@
 # hifi-buildscripts
 Build scripts for various Linux distributions - no support given.
 
+If you wish to reference my work on your blog/wiki/whatever do **not** copy my scripts, reference back to here and credit me for these works.
+
 I don't maintian this is either the best, only or even right way to compile High Fidelity's VR Server/Client programs, but, it's what works for me and has prvoven overall reliable in face of constant changes that break HF compiling all too routinely.
 
 This will (possibly) work for **only** the following Linux based distribtutions;
