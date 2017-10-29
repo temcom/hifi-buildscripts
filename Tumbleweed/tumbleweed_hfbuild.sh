@@ -12,7 +12,7 @@
 # an assured proposition since Tumbleweed is all about the bleeding edge -- it just so happens that
 # its current bleeding edge aligns perfectly with what HiFi needs).
 #
-#!/bin/sh
+#!/bin/bash
 # This looks for most recent tag and builds or warns and exits if already built.
 set -e
 export QT_CMAKE_PREFIX_PATH=/usr/lib64/cmake
