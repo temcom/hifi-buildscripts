@@ -12,4 +12,4 @@
 
 **If you want to run Interface (Client)**
 
-`sudo apt-get install libqt5websockets5 libqt5qml5 libqt5scripttools5 libtbb2 libgomp1 libqt5multimedia5 libqt5webengine5 libqt5xmlpatterns5'
+`sudo apt-get install libqt5websockets5 libqt5qml5 libqt5scripttools5 libtbb2 libgomp1 libqt5multimedia5 libqt5webengine5 libqt5xmlpatterns5`
