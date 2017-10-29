@@ -6,4 +6,10 @@
 
 *Note: Due to hard coding library locations you would need to make an **exact** clone of binary directory on run box compared to build box*
 
-`sudo apt-get install qtbase5 qtscript5 qtdeclarative5 libqt5websockets5 libssl qttools5-tools qtmultimedia5 libqt5webchannel5 qtwebengine5 libqt5xmlpatterns5 libqt5svg5 libtbb libsdl2 libglm`
+**If you only intend to run Stack (Server as in assignment-client and/or domain-server)**
+
+`sudo apt-get install libqt5websockets5 libqt5qml5 libqt5scripttools5 libtbb2 libgomp1`
+
+**If you want to run Interface (Client)**
+
+`sudo apt-get install libqt5websockets5 libqt5qml5 libqt5scripttools5 libtbb2 libgomp1 libqt5multimedia5 libqt5webengine5 libqt5xmlpatterns5'
