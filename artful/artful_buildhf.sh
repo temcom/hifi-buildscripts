@@ -37,7 +37,7 @@ if [ -e $HFBIN ]; then
                 exit 1
         fi
 fi
-# Away we go - enjoy all the warnings about -pedantic not being a thing - thanks ancient GLM we have to use.
+# Away we go.
 git checkout tags/RELEASE-$RELEASE_NUMBER
 export RELEASE_TYPE=PRODUCTION
 export BRANCH=stable
