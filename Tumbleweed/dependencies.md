@@ -8,4 +8,14 @@
 
 *Note: Due to hard coding library locations you would need to make an **exact** clone of binary directory on run box compared to build box*
 
-`sudo zypper install libqt5-qtbase libqt5-qtscript libqt5-qtdeclarative libqt5-qtwebsockets libqt5-linguist libqt5-qtmultimedia libqt5-qtsvg libqt5-qtwebengine libqt5-qtwebchannel libqt5-qtxmlpatterns glu libopenssl-1_0_0 libSDL2 tbb`
+**If you only intend to run Stack (Server as in assignment-client and/or domain-server)**
+
+`sudo zypper install libQt5QuickControls2-5 libQt5WebSockets5 libQt5OpenGL5 libQt5Script5 libtbb2 libtbbmalloc2 libQt5Concurrent5`
+
+**If you want to run Interface (Client)**
+
+`sudo zypper install libQt5QuickControls2-5 libQt5WebSockets5 libQt5OpenGL5 libQt5Script5 libtbb2 libtbbmalloc2 libQt5Concurrent5 libQt5Multimedia5 libQt5Svg5 libqt5-qtwebengine libatomic1`
+
+Some assumption about Tumbleweed;
+
+I did a clean install and selected Gnome environment.  If you have KDE/Plasma or "server only no GUI" things may be differemt, but, as far as I can tell the above should install dependencies needed regardless.
