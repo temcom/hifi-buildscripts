@@ -34,8 +34,9 @@ export HFBIN=$HFBINBASE/$RELEASE_NUMBER
 
 # Check to see if it's already made...
 if [ -e $HFBIN ]; then
-        read -p "Already built.  Press R and enter/return to rebuild or enter/return to exit." resp
-        if [ ! resp -eq 'R' ]; then
+        read -p "Already built.  Press R or any other key to exit." -n 1 -r
+        if [[ ! $REPLY =~ ^[Rr]$ ]]; then
+                printf "\nAborted build.\n\n"
                 exit 1
         fi
 fi
