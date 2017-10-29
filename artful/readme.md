@@ -16,4 +16,19 @@ Variables controlling where source and binaries go;
 
 `HFBINBASE=$USER/hifi`
 
-For binaries it is important you realize those binaries will **only** run properly if in "installed" location due to hard coding library paths.
+If you want to, for instance, create a tarball of your binaries to run on another machine it will need to meet the following requirements;
+
+1) Have the same distribution as the "build box" (i.e. Ubuntu Artful build box -> Ubuntu Artful run box).
+2) Binaries on "run box" must be in same location as "build box" due to hard coding various run paths for libs.
+
+For example;
+
+On your build box you end up with binaries in...
+
+/home/hfbuilder/hifi/7350/
+
+Then your "run" box would need to see the **exact** same location.
+
+/home/hfbuilder/hifi/7350
+
+If you intend to build on one box and run on many I would suggest you think about making a consistent "install" location (perhaps something like /opt/hifi) and not use the /home/current-user/hifi/version_number/ convention I default to.
