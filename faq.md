@@ -8,9 +8,12 @@ My Interface console window is flooding with messages about USB access errors.  
 
 Interface won't run on my _whatever hardware I have_ with _whatever driver I have_.
 
-    Sorry - Interface is exceedingly picky about OpenGL level (4.1/4.3 -- though I once saw a "hack" alowing it to run
-    on 3.?, but, that's outside scope of wat I deal with here).  Basically - if you're not running an Nvidia 9xx or
-    10xx series with Nvidia closed source drivers... good luck.
+    Don't yell at me for this - it's so far outside anything that I can do anything about - platform of the glorious
+    future, HMD needs "uber" hardware -- etc etc etc.
+    
+    Interface is exceedingly picky about OpenGL level (4.1/4.5 -- though I once saw a "hack" alowing it to run
+    on 3.?, but, that's outside scope of wat I deal with here and I'm far from sure it can still even be done).
+    Basically if you're not running an Nvidia 9xx or 10xx series with Nvidia closed source drivers... good luck.
 
 Why don't you support the Linux distribution *I* love instead of this crap you do?
 
