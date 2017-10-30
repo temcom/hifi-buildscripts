@@ -1,5 +1,5 @@
 #
-# Build script for High Fidelity VR Platform - Ubuntu 17.10 (Artful) edition.
+# Build script for High Fidelity VR Platform - Ubuntu 16.04 (Xenial) edition.
 # (c) 2017 J.C.L -- aka the virtual persona, Omega Heron.
 # GPL 3.0
 #
