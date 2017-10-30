@@ -7,7 +7,7 @@ I don't maintian this is either the best, only or even right way to compile High
 
 This will (possibly) work for **only** the following Linux based distribtutions;
 
-1) Ubuntu Xenial (16.04) -- Coming soon.
+1) Ubuntu Xenial (16.04) -- In progress, sorting out issues with Interface not working.  AC/DS good.
 2) Ubuntu Artful (17.10)
 3) Debian Buster (10.0 -- currently in Debian's "testing" phase)
 4) openSUSE Tumbleweed
