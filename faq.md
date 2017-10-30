@@ -12,7 +12,7 @@ Interface won't run on my _whatever hardware I have_ with _whatever driver I hav
     future, HMD needs "uber" hardware -- etc etc etc.
     
     Interface is exceedingly picky about OpenGL level (4.1/4.5 -- though I once saw a "hack" alowing it to run
-    on 3.?, but, that's outside scope of wat I deal with here and I'm far from sure it can still even be done).
+    on 3.?, but, that's outside scope of what I deal with here and I'm far from sure it can still even be done).
     Basically if you're not running an Nvidia 9xx or 10xx series with Nvidia closed source drivers... good luck.
 
 Why don't you support the Linux distribution *I* love instead of this crap you do?
