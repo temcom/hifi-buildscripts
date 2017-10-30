@@ -16,8 +16,8 @@ Each of above has a subdirectory with its specific build scripts and notes.
 
 It will not work for anything else that's not at least an almost identical clone for packages to one of the above.
 
-Linux Mint (based on Ubuntu 16.04) could work, but, it requires figuring out a PPA for Qt5.9.x as was done for Xenial -- If Mint releases a build at paritoy with Ubuntu 17.10 then, in theory, support it would be trivail.
+Linux Mint (based on Ubuntu 16.04) could work, but, it requires figuring out a PPA for Qt5.9.x as was done for Xenial -- If Mint releases a build at parity with Ubuntu 17.10 then, in theory, support it would be easy mode.
 
-Fedora may be on the radar too as it seems later release of it have Qt5.9.x.
+Fedora may be on the radar too as it seems later release of it have Qt5.9.x (Fedora 27 has Qt5.9.2).
 
 CentOS is not on my todo list.  Others have handled it and I'm not interested in trying to nudge even the latest version of it to library levels recent enough to run HiFi -- should a CentOS release come along in future offering needed libraries without having to do so much... hackery... I'll reconsider it.
