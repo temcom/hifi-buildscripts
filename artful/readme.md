@@ -1,4 +1,4 @@
-** NOT COMPLETE YET -- build script is correct, but Interface is unlikely to actually work (assignment-client and domain-server should be fine) until I add some additional package dependencies for QML modules.  That's next on my todo list, i.e. soon.  **
+**NOT COMPLETE YET -- build script is correct, but Interface is unlikely to actually work (assignment-client and domain-server should be fine) until I add some additional package dependencies for QML modules.  That's next on my todo list, i.e. soon.**
 
 These scripts are provided with no warranty as to proper working other than my having tested on a clean install of Ubuntu 17.10 Artful on a Virtual Machine.  Use at your own risk and study scripts to see what's being done and how before use.
 
