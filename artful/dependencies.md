@@ -12,4 +12,6 @@
 
 **If you want to run Interface (Client)**
 
-`sudo apt-get install libqt5websockets5 libqt5qml5 libqt5scripttools5 libtbb2 libgomp1 libqt5multimedia5 libqt5webengine5 libqt5xmlpatterns5`
+`sudo apt-get install libqt5quick5 libqt5qml5 libtbb2 libgomp1 libqt5websockets5 libqt5opengl5 libqt5scripttools5 libqt5concurrent5 libqt5multimedia5 libqt5webenginewidgets5 libqt5webengine5 libqt5xmlpatterns5 qml-module-qtquick-controls qml-module-qt-labs-settings qml-module-qtwebengine qml-module-qtquick-controls2 qml-module-qtquick-dialogs qml-module-qt-labs-folderlistmodel qml-module-qtwebchannel`
+
+*Note: I'm not 100% sure all dependencies are really being installed for the run only list and Interface (client). I think I have most of them, but, since I can't really run Interface due to doing this from a VM (which doesn't support the OpenGL level needed)... I can see Interface load up and "try" to work but it doesn't get far enough to be 100% sure I got all the dependencies in place.*
