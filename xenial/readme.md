@@ -1,3 +1,5 @@
+**Warning -- Interface built with this method is, so far, giving problems with core dumping at launch -- still invetigating.  Server binaries (AC/DS) seem fine.**
+
 These scripts are provided with no warranty as to proper working other than my having tested on a clean install of Ubuntu 16.04 Xenial on a Virtual Machine.  Use at your own risk and study scripts to see what's being done and how before use.
 
 **If you wish to reference these scripts from your blog/wiki/whatever do not copy my scripts - link back to here and credit me as author of this content.**
