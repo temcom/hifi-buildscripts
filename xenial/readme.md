@@ -1,5 +1,7 @@
 **Warning -- Interface built with this method is, so far, giving problems with core dumping at launch -- still invetigating.  Server binaries (AC/DS) seem fine.**
 
+**I'm at a total loss here... my Ubuntu build box (16.04) that I began all this on produces Interface that works... a, obviously not perfect, clone of it produces Interface that crashes on launch.  Once I discover what's unique about Box A vs Box B I'll fix up Xenial for actual use with this script/dependcy tree.**
+
 These scripts are provided with no warranty as to proper working other than my having tested on a clean install of Ubuntu 16.04 Xenial on a Virtual Machine.  Use at your own risk and study scripts to see what's being done and how before use.
 
 **If you wish to reference these scripts from your blog/wiki/whatever do not copy my scripts - link back to here and credit me as author of this content.**
