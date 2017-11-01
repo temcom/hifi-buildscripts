@@ -47,7 +47,7 @@ mkdir -p $HFSRC/build
 cd $HFSRC/build
 cmake .. -DUSE_LOCAL_TBB=1 -DUSE_LOCAL_BULLET=1 -DUSE_LOCAL_SDL2=1 -DCMAKE_BUILD_TYPE=Release
 # Note: -j2 could be much higher, like -j8 if you want to max out compile speed on an i7 or even higher if you have more "cores"
-make -j3 domain-server assignment-client pcmCodec hifiCodec interface
+make -j2 domain-server assignment-client pcmCodec hifiCodec interface
 # Insure nothing from a previous compile exists in destination dir
 rm -rf $HFBIN
 # Create destination dir and required plugins dir under destination
