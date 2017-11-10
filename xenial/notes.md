@@ -4,6 +4,10 @@ Using VirtubalBox Interface binary core dumps on launch while using VMWare Playe
 
 I used Ubuntu's net install ISO -- http://archive.ubuntu.com/ubuntu/dists/xenial-updates/main/installer-amd64/current/images/netboot/
 
-I worked through various install steps and selected only 2 additional (to the one already enabled) package groups; OpenSSH Server and Basic Ubuntu Server.
+I worked through various install steps and selected package groups;
+
+`standard system utilities`
+
+`OpenSSH server`
 
 Once installed and booted I then added packages via list provided.
