@@ -1,8 +1,4 @@
-**Warning -- Interface built with this method is, so far, giving problems with core dumping at launch -- still invetigating.  Server binaries (AC/DS) seem fine.**
-
-**I'm at a total loss here... my Ubuntu build box (16.04) that I began all this on produces Interface that works... a, obviously not perfect, clone of it produces Interface that crashes on launch.  Once I discover what's unique about Box A vs Box B I'll fix up Xenial for actual use with this script/dependcy tree.**
-
-**It seems there's something about trying to compile from a VM with no proper openGL hardware support that leads to Interface being an instant crasher... it's one of the strangest things I've ever seen... from my real hardware machine with an Nvidia GTX660M and NV drivers -- this script produces a properly running Interface -- from VM with exact same Qt and other packages installed it produces an Interface binary that instantly crashes at launch.  I'll keep digging to find solution.  With that in mind, this script may or may not produce a working Interface binary, but, should in all cases produce proper assignment-client and domain-server binaries.**
+*As of 10/November/2017 this is now working for AC, DS and Interface.*
 
 These scripts are provided with no warranty as to proper working other than my having tested on a clean install of Ubuntu 16.04 Xenial on a Virtual Machine.  Use at your own risk and study scripts to see what's being done and how before use.
 
