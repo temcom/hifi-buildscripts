@@ -1,4 +1,7 @@
 # hifi-buildscripts
+
+# Hopelessly outdated, likely useless and only left up for its possible historical use.  Will not be updated or further commented upon.  In other words -- this was last useful almost a year ago and hasn't been touched since.
+
 Build scripts for various Linux distributions - no support given.
 
 If you wish to reference my work on your blog/wiki/whatever do **not** copy my scripts, reference back to here and credit me for these works.
